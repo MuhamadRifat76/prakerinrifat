@@ -39,7 +39,7 @@ return [
             'prefix' => '',
         ],
 
-        'mysql' => [
+        'mysql' => [    
             'driver' => 'mysql',
             'url'    => env('DATABASE_URL'),
             'host' => env('DB_HOST', 'db4free.net'),
