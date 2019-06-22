@@ -132,7 +132,7 @@ class SiswaController extends Controller
         $siswa = Siswa::find($id);
         $input = $request->all();
 
-        if ($siswa){
+        if (!$siswa){
             $response = [
                 'success'=> false,
                 'data'=>'Empty',
