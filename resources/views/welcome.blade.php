@@ -105,7 +105,7 @@
                                     <li><a href="#">Local News</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="index">Home</a></li>
+                                            <li><a href="/">Home</a></li>
                                             <li><a href="catagory">Catagory</a></li>
                                             <li><a href="single">Single Post</a></li>
                                             <li><a href="contact">Contact</a></li>
@@ -865,7 +865,7 @@
                                     <li><a href="#">Local News</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="index">Home</a></li>
+                                            <li><a href="/">Home</a></li>
                                             <li><a href="catagory">Catagory</a></li>
                                             <li><a href="single">Single Post</a></li>
                                             <li><a href="contact">Contact</a></li>
@@ -1890,7 +1890,7 @@
     <footer class="footer-area">
         <!-- Footer Logo -->
         <div class="footer-logo mb-100">
-            <a href="index"><img src="img/core-img/logo.png" alt=""></a>
+            <a href="/"><img src="img/core-img/logo.png" alt=""></a>
         </div>
         <!-- Footer Content -->
         <div class="container">
