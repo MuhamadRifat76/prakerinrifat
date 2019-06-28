@@ -15,6 +15,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/admin', function () {
+    return view('backend');
+});
+Route::get('dashboardfrontend', function () {   
+    return view('dashboardfrontend');
+});
+
 Route::get('/contact', function () {
     return view('contact');
 });
@@ -31,20 +42,12 @@ Route::get('/elements', function () {
     return view('elements');
 });
 
+Route::resource('kategori', 'KategoriController');
+Route::resource('tag', 'TagController');
+Route::resource('artikel', 'ArtikelController'); 
 
 
-
+ //Route::get('berita-terakhir','FrontendAPIController');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/admin', function () {
-    return view('back');
-});
